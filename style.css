@@ -1,0 +1,242 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.header_section {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/bg.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.header_section .nav {
+    padding: 30px 0px;
+}
+
+.header_section .nav .container {
+    width: 90%;
+    margin: auto;
+}
+
+.header_section .nav .container img {
+    width: 7%;
+}
+
+.header_section .nav .container ul {
+    margin-left: 800px;
+}
+
+.footer .container ul li a {
+    text-decoration: none;
+    color:#536942;
+    padding: 0px 5px;
+}
+
+.header_section .nav .container ul,
+.footer .container ul {
+    list-style: none;
+    display: inline-block;
+}
+
+.header_section .nav .container ul li a {
+    text-decoration: none;
+    color: rgb(177, 173, 173);
+    padding: 0px 5px;
+}
+
+.header_section .nav .container ul li,
+.footer .container ul li {
+    display: inline-block;
+}
+
+.header_section .nav .container ul li a:hover {
+    color: rgb(5, 89, 12);
+    cursor: pointer;
+}
+
+.header_section .home_cont {
+    text-align: center;
+}
+
+.header_section .home_cont h1,
+.header_section .home_cont h3 {
+    color: rgb(5, 89, 12);
+    font-size: 10vh;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header_section .home_cont h3 {
+    letter-spacing: 5px;
+}
+
+.header_section .home_cont button {
+    border: none;
+    background-color: rgb(5, 89, 12);
+    color: white;
+    padding: 6px 12px;
+    font-size: 3vh;
+    margin-top: 15px;
+}
+
+.header_section .home_cont button:hover {
+    border: none;
+    background-color: #769E47;
+    color: white;
+    padding: 6px 20px;
+    font-size: 3vh;
+    margin-top: 15px;
+}
+
+.home_cont .container {
+    width: 90%;
+    margin: 70px auto;
+    text-align: center;
+}
+
+.home_sec2 .container .crs {
+    width: 33%;
+    display: inline-block;
+    margin: 30px 0px;
+}
+
+.home_sec2 .container .crs img {
+    width: 70vh;
+    height: 80vh;
+}
+
+.home_sec3 {
+    background-color: #d8dcd6;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.home_sec3 h5 {
+    /* font-size: 6vh; */
+    color: #536942;
+    font-family: 'Forum', display;
+    padding: 180px 180px 80px;
+}
+
+.home_sec3 img {
+    border-radius: 50% 50%;
+    width: 20vh;
+    height: 20vh;
+}
+
+.home_sec3 h6 {
+    color: #536942;
+    margin-top: 30px;
+}
+
+.home_sec4 .container {
+    width: 90%;
+    margin: 40px auto;
+    background-color: #f5eded;
+}
+
+.home_sec4 .container .text {
+    float: left;
+    width: 40%;
+}
+
+.home_sec4 .container .image {
+    float: right;
+    width: 60%;
+}
+
+.clr {
+    clear: both;
+}
+
+.home_sec4 .container .image img {
+    width: 70vh;
+    height: 80vh;
+    margin-left: 250px;
+}
+
+.home_sec4 .container .text h6 {
+    color: #cccccc;
+    margin-bottom: 30px;
+}
+
+.home_sec4 .container .text h1 {
+    margin: 15px 0px;
+    color: #536942;
+    font-size: 6vh;
+    margin-bottom: 50px;
+}
+
+.home_sec4 .container .text h4 {
+    color: #536942;
+    margin: 15px 0px;
+    font-size: 3vh;
+    line-height: 1.5;
+    margin-bottom: 50px;
+}
+
+.home_sec4 .container .text button {
+    background-color: transparent;
+    color: #536942;
+    padding: 15px 35px;
+    border: 0.4px solid #536942;
+    border-radius: 6px;
+}
+
+.home_sec4 .container .text button:hover {
+    background-color: transparent;
+    color: #B0D62E;
+    padding: 15px 35px;
+    border: 0.4px solid #B0D62E;
+    border-radius: 6px;
+
+}
+
+.home_sec5 {
+    height: 100vh;
+    background-image: url(images/imgi_27_Call-to-action.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.home_sec5 .container {
+    padding: 100px 0;
+}
+
+.home_sec5 .container h1 {
+    font-family: 'DM Sans';
+    color: #536942;
+    text-align: center;
+    font-size: 8vh;
+}
+
+.home_sec5 .container h5 {
+    text-align: center;
+    color: #536942;
+    line-height: 30px;
+    font-size: 3.5vh;
+}
+
+.home_sec5 .container button {
+    text-align: center;
+    color: #536942;
+    padding: 15px 35px;
+    border: 0.4px solid #dbb922;
+    border-radius: 6px;
+    background-color: #dbb922;
+    margin-left: 600px;
+}
+
+.footer .container img{
+    margin-left: 350px;
+}
+
+.footer .container h6{
+    color: #536942;
+    text-align: right;
+    font-size: larger;
+}
